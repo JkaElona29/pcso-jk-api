@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dZ38ZyLYHMdAhabedEnasIFzFmeYAyYKS+617LWvoeg=",
+  "Source": "pcso-jk-api",
+  "BasePath": "_content/pcso-jk-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
