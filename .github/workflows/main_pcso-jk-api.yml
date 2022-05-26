@@ -21,7 +21,7 @@ jobs:
           cd .\pcso-jk-api
           dotnet build -c Release
           dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
-          
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
@@ -47,5 +47,5 @@ jobs:
         with:
           app-name: 'pcso-jk-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ADA1C05D72F24AABA37C9262FB1E5870 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A7CDFF74346346E1BF2D121A814390A1 }}
           package: .
