@@ -49,6 +49,14 @@
               "target": "Package",
               "version": "[6.0.5, )"
             },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Azure.SignalR.Management": {
+              "target": "Package",
+              "version": "[1.17.1, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.5, )"
